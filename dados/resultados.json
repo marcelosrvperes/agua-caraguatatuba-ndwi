@@ -1,0 +1,208 @@
+{
+ "chuva": {
+  "periodo": [
+   "1981-01-01",
+   "2025-12-31"
+  ],
+  "anual_mm": 1766,
+  "anual_dp": 216,
+  "media_mensal_mm": 147,
+  "meses_secos": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "clim_mensal": {
+   "1": 248,
+   "2": 221,
+   "3": 229,
+   "4": 140,
+   "5": 107,
+   "6": 68,
+   "7": 60,
+   "8": 56,
+   "9": 111,
+   "10": 159,
+   "11": 159,
+   "12": 207
+  },
+  "seca_total_mm": 544,
+  "chuvosa_total_mm": 1222,
+  "ano2024_mm": 1684,
+  "mensal2024": [
+   369,
+   228,
+   252,
+   66,
+   66,
+   24,
+   49,
+   60,
+   45,
+   130,
+   98,
+   298
+  ],
+  "seca": {
+   "data": "2024-08-23",
+   "p3": 0.7,
+   "p7": 0.7,
+   "p30": 7.0,
+   "mes_mm": 60,
+   "clim_mes_mm": 56
+  },
+  "chuvosa": {
+   "data": "2024-03-31",
+   "p3": 43.9,
+   "p7": 144.2,
+   "p30": 251.6,
+   "mes_mm": 252,
+   "clim_mes_mm": 229
+  }
+ },
+ "sitio": {
+  "area_ha": 221.1,
+  "app_curso_ha": 84.8,
+  "app_curso_pct": 38.3,
+  "nascentes_dentro": 14,
+  "app_curso_ou_nascente_pct": 43.1
+ },
+ "limiares": {
+  "otsu_ndwi": {
+   "seca": 0.167,
+   "chuvosa": 0.196
+  },
+  "otsu_ndmi_conjunto_sitio": 0.154
+ },
+ "seca": {
+  "nuvem_sitio_px": 0,
+  "agua_janela_ha": 26.7,
+  "agua_sitio_ha": 0.0,
+  "agua_janela_t0_ha": 29.3,
+  "agua_janela_tm01_ha": 36.7,
+  "sitio_px_ndwi_gt_m02": 11,
+  "ndwi_max_sitio": -0.08,
+  "mndwi_max_sitio": -0.29,
+  "ndwi_sitio_p5_50_95": [
+   -0.77,
+   -0.61,
+   -0.5
+  ],
+  "ndwi_app_p50": -0.61,
+  "ndwi_foraapp_p50": -0.61,
+  "mndwi_sitio_p5_50_95": [
+   -0.66,
+   -0.54,
+   -0.48
+  ],
+  "mndwi_app_p50": -0.54,
+  "mndwi_foraapp_p50": -0.54,
+  "ndmi_sitio_p5_50_95": [
+   -0.08,
+   0.1,
+   0.27
+  ],
+  "ndmi_app_p50": 0.1,
+  "ndmi_foraapp_p50": 0.11,
+  "umido_sitio_pct": 31.9,
+  "umido_app_pct": 28.6,
+  "umido_foraapp_pct": 33.9,
+  "jrc_perm_janela_ha": 1.0,
+  "agua_dentro_jrc_pct": 2.6,
+  "jrc_recuperado_pct": 69.7,
+  "fbds_massa_ha": 12.0,
+  "fbds_massa_detectado_pct": 38.3,
+  "fbds_rio_duplo_ha": 28.3,
+  "fbds_rio_duplo_detectado_pct": 0.0,
+  "agua_janela_a_menos_30m_massa_pct": 23.8
+ },
+ "chuvosa": {
+  "nuvem_sitio_px": 0,
+  "agua_janela_ha": 25.6,
+  "agua_sitio_ha": 0.0,
+  "agua_janela_t0_ha": 30.6,
+  "agua_janela_tm01_ha": 44.7,
+  "sitio_px_ndwi_gt_m02": 3,
+  "ndwi_max_sitio": -0.19,
+  "mndwi_max_sitio": -0.24,
+  "ndwi_sitio_p5_50_95": [
+   -0.83,
+   -0.67,
+   -0.57
+  ],
+  "ndwi_app_p50": -0.66,
+  "ndwi_foraapp_p50": -0.67,
+  "mndwi_sitio_p5_50_95": [
+   -0.66,
+   -0.49,
+   -0.44
+  ],
+  "mndwi_app_p50": -0.49,
+  "mndwi_foraapp_p50": -0.49,
+  "ndmi_sitio_p5_50_95": [
+   0.12,
+   0.26,
+   0.39
+  ],
+  "ndmi_app_p50": 0.26,
+  "ndmi_foraapp_p50": 0.27,
+  "umido_sitio_pct": 89.1,
+  "umido_app_pct": 89.4,
+  "umido_foraapp_pct": 89.0,
+  "jrc_perm_janela_ha": 1.0,
+  "agua_dentro_jrc_pct": 2.9,
+  "jrc_recuperado_pct": 75.8,
+  "fbds_massa_ha": 12.0,
+  "fbds_massa_detectado_pct": 39.3,
+  "fbds_rio_duplo_ha": 28.3,
+  "fbds_rio_duplo_detectado_pct": 0.0,
+  "agua_janela_a_menos_30m_massa_pct": 25.3
+ },
+ "posicao": {
+  "desloc_-1_-1": {
+   "seca": 0,
+   "chuvosa": 0
+  },
+  "desloc_-1_0": {
+   "seca": 10,
+   "chuvosa": 7
+  },
+  "desloc_-1_1": {
+   "seca": 85,
+   "chuvosa": 79
+  },
+  "desloc_0_-1": {
+   "seca": 0,
+   "chuvosa": 0
+  },
+  "desloc_0_1": {
+   "seca": 0,
+   "chuvosa": 0
+  },
+  "desloc_1_-1": {
+   "seca": 0,
+   "chuvosa": 0
+  },
+  "desloc_1_0": {
+   "seca": 0,
+   "chuvosa": 0
+  },
+  "desloc_1_1": {
+   "seca": 0,
+   "chuvosa": 0
+  },
+  "buffer_250": {
+   "seca": 17,
+   "chuvosa": 13
+  }
+ },
+ "posicao_max_px_agua": 85,
+ "delta_med_sitio": {
+  "ndwi": -0.06,
+  "mndwi": 0.04,
+  "ndmi": 0.15
+ }
+}

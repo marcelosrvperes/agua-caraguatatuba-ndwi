@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "sitio_wgs84",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "nome": "sitio3_TCC" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -45.510004132597047, -23.661197354692053 ], [ -45.475395395828613, -23.668672878561626 ], [ -45.476760516185834, -23.67403726903936 ], [ -45.511370575590526, -23.666561423022472 ], [ -45.510004132597047, -23.661197354692053 ] ] ] } }
+]
+}
