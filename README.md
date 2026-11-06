@@ -23,6 +23,3 @@ Versões das coleções: as de GEE acima (S2 SR harmonizado; CHIRPS diário v2.0
 
 ## Licença
 Código sob licença MIT (`LICENSE`). Dados derivados: IBGE, FBDS, CHIRPS, Copernicus Sentinel-2 e JRC têm termos próprios de uso aberto.
-
-## Declaração de uso de IA
-O código e o texto foram feitos com o assistente Claude (Anthropic) sob direção dos autores.
