@@ -218,8 +218,7 @@ for i, (n, lab) in enumerate((("seca", "seca, 23/08/2024"), ("chuvosa", "chuvosa
         q.set_title(f"({'abcdef'[3 * i + j]}) {cols[j]}", fontsize=7, loc="left", pad=2)
         q.annotate("", xy=(x1 - 160, y1 - 110), xytext=(x1 - 160, y1 - 520), arrowprops=dict(arrowstyle="-|>", lw=.8, color="w" if j < 2 else "k"))
         q.text(x1 - 160, y1 - 560, "N", ha="center", va="top", fontsize=6.5, color="w" if j < 2 else "k")
-        if j == 0:
-            q.text(x0 + 120, y1 - 120, lab, color="w", fontsize=6.5, va="top", bbox=dict(fc="k", alpha=.5, lw=0, pad=1.5))
+        q.text(x0 + 120, y1 - 120, lab, color="w", fontsize=6.5, va="top", bbox=dict(fc="k", alpha=.5, lw=0, pad=1.5))
     ax[i, 0].plot([x0 + 200, x0 + 1200], [y0 + 170] * 2, "w-", lw=2)
     ax[i, 0].text(x0 + 700, y0 + 260, "1 km", ha="center", color="w", fontsize=6)
 fig.tight_layout(pad=.3, w_pad=.4, h_pad=.6)
