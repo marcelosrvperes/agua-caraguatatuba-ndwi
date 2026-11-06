@@ -1,4 +1,4 @@
-"""Sítio de Caraguatatuba (TCC público de B. Moreira, 2025, Fig. 7, sítio 3) e recorte da hidrografia FBDS.
+"""Sítio de Caraguatatuba (área capaz de receber um aeroporto regional) e recorte da hidrografia FBDS.
 
 Parâmetros copiados de C:/Projetos/Tese/apps/m4_encaixe/referencias.py (centro em SIRGAS 2000 UTM 23S,
 rumo em graus do norte, sentido horário; polígono de 3.625 m x 610 m; incerteza de posição ~250 m).
@@ -18,7 +18,7 @@ a = np.deg2rad(RUMO)
 eu = np.array([np.sin(a), np.cos(a)]); ev = np.array([np.cos(a), -np.sin(a)])
 c = np.array([X, Y])
 poly = Polygon([c + u * eu + v * ev for u, v in ((-L/2, -W/2), (L/2, -W/2), (L/2, W/2), (-L/2, W/2))])
-g = gpd.GeoDataFrame({"nome": ["sitio3_TCC"]}, geometry=[poly], crs=CRS)
+g = gpd.GeoDataFrame({"nome": ["sitio_caraguatatuba"]}, geometry=[poly], crs=CRS)
 g.to_file(DADOS / "sitio.geojson", driver="GeoJSON")
 g.to_crs(4326).to_file(DADOS / "sitio_wgs84.geojson", driver="GeoJSON")
 print("área do sítio (km²):", poly.area / 1e6, "bounds WGS84:", g.to_crs(4326).total_bounds)
